@@ -1,7 +1,7 @@
 import os
 import json
 import logging
-import gspread
+
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes
 from google.oauth2.service_account import Credentials
